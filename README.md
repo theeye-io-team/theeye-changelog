@@ -18,6 +18,10 @@
 
 # RELEASES
 
+## Abril 20, 2021
+
+### components versiones
+
 * supervisor. 2.4.0   
 
 * web. 2.4.0    
@@ -28,13 +32,7 @@
 
 * sync. 0.0.3      
 
-
-## Abril 20, 2021
-
-Main features.
-
-
------
+## Main features.
 
 
 ### on-premises
@@ -82,23 +80,13 @@ User match/create by email, username (case insensitive)
 
 * Core API new endpoints added.
 
-> Fetch all workflow jobs (fetch api ready):
-  GET /workflow/:workflow_id/job
-
-> Fetch a workflow job:
-  GET /workflow/:workflow_id/job/:job
-
-> Fetch all task jobs withing a workflow job execution:
-  GET /workflow/:workflow_id/job/:job/jobs
-
-> Set user_inputs, user_inputs_members. also set job acl. body filter username, email. determine organization using session
-  PUT /job/:job/assignee
-
-> Set job acl
-  PUT /job/:job/acl
-
-> Set job acl by workflow
-  PUT /workflows/:workflow/job/:job/acl
-
-> Cancel workflow job execution
-  PUT /workflows/:workflow/job/:job/cancel
+| method | path | description |
+| ----- | ----- | ----- |
+| GET | /workflow/:workflow_id/job |  Fetch all workflow jobs (fetch api ready) |
+| GET | /workflow/:workflow_id/job/:job | Fetch a workflow job | 
+| GET | /workflow/:workflow_id/job/:job/jobs | Fetch all task jobs withing a workflow job execution |
+| PUT | /job/:job/assignee | Set user_inputs, user_inputs_members. also set job acl. body filter username, email. determine organization using session |
+| PUT | /job/:job/acl | Set job acl |
+| PUT | /workflows/:workflow/job/:job/acl | Set job acl by workflow |
+| PUT | /workflows/:workflow/job/:job/cancel | Cancel workflow job execution |
+  
