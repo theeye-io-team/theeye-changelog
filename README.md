@@ -1,22 +1,17 @@
 
 # CHANGELOG
 
------
 
 ## Components
 
-### supervisor. Core API
-
-### web. SPA UI
-
-### gateway. Micro Services API
-
-### auth. Authentication Micro Service (saas)
-
-### sync. Core Task execution sync response.
-
-### docs. Online documentation
-
+| Name | Description |
+|-----|-----|
+| supervisor | Core API |
+| web | SPA UI |
+| gateway | Micro Services API |
+| auth | Authentication Micro Service (saas) |
+| sync | Core Task execution sync response |
+| docs | Online documentation |
 
 -----
 
