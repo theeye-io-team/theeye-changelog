@@ -37,14 +37,14 @@
 
 ### on-premises
 
-* LDAP/AD Login. Users profile creation and verification is now case insensitive.
+* LDAP/AD Login. Users profile creation and verification can now be performed in case-insensitive manner.
 
 Default group (configuration req.)
 User match/create by email, username (case insensitive)
 
-* Enable/disable email notifications: activation, customerInvitation, invitation, passwordRecover, registration
+* Toggle email notifications for activation, customerInvitation, invitation, passwordRecover, registration.
 
-* Enable/disable registration form
+* Toggle registration form.
 
 
 -----
@@ -54,31 +54,31 @@ User match/create by email, username (case insensitive)
 
 * Cloud Domain Enterprise login (Azure AD integration)
 
-* Can send notification using email and username
+* Notifications can now be sent using email and username.
 
-* Approval task with dynamic approvers. Can set the approver during task Triggering. Specify the approvers in the previous task of a workflow or from the triggering task.
+* Dynamic approvers for Approval tasks. Approvers are set during task Triggering and should be defined in the previous task of a workflow or from the triggering task.
 
-* Task and Workflows with ACL's and dynamic ACL's. This allowes to assign the workflow/task (job) execution to particular users. The ACL's must be set during task triggering.
+* ACL's and dynamic ACL's for Task and Workflows. This allows assignment of the workflow/task (job) execution to particular users. The ACL's must be set during task triggering.
 
-* Task Arguments can now be Optional
+* Task Arguments can now be set as Optional
 
-* Core Arguments JSON encoded (optional). The core will JSON.encode all task arguments and within the scripts will be required to JSON.decode each argument. This will be made automatically in next releases.
+* Core Arguments as JSON encoded (optional). The core will JSON.encode all task arguments and JSON.decode for each argument will be required within the scripts. Future releases will perform this process automatically.
 
-* Added Task input type JSON. Validate user input only.
+* Added Task input type JSON. Validation only applicable for user input.
 
 * Approval Task parametrization: success_enabled, failure_enabled, cancel_enabled, ignore_enabled 
 
-* It is posible to set properties dynamically in some tasks. (working on the documentation)
+* Task properties can now be set dynamically. (working on the documentation)
 
 * Username was added to env THEEYE_JOB_USER
 
-* Can now dynamically set user_inputs , user_inputs_member
+* Can now dynamically set user_inputs, user_inputs_member
 
-* Optional during triggers can be set via API and via task output (working on the documentation)
+* Optional during triggers can be set via API and task output. (working on the documentation)
 
-* Workflow Job table view. The jobs list is displayed aligned in columns. The columns are filled in with the arguments received in the first step (task) of the workflow.
+* Workflow Job table view. The jobs list is displayed aligned in columns, each filled in with the arguments received in the first step (task) of the workflow.
 
-* Core API new endpoints added.
+* New endpoints added in the Core API.
 
 | method | path | description |
 | ----- | ----- | ----- |
