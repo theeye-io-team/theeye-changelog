@@ -32,10 +32,9 @@
 
 * sync. 0.0.3      
 
-## Main features.
+### Main features.
 
-
-### on-premises
+#### on-premises
 
 * LDAP/AD Login. Users profile creation and verification can now be performed in case-insensitive manner.
 
@@ -50,7 +49,7 @@ User match/create by email, username (case insensitive)
 -----
 
 
-### cross env (saas, on-premises)
+#### cross env (saas, on-premises)
 
 * Cloud Domain Enterprise login (Azure AD integration)
 
