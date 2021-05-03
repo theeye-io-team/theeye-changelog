@@ -43,7 +43,9 @@ User match/create by email, username (case insensitive)
 
 * Toggle email notifications for activation, customerInvitation, invitation, passwordRecover, registration.
 
-* Toggle registration form.
+* Toggle registration form, google login options, password reset form.
+
+* Can customize login form inputs placeholders 
 
 
 -----
