@@ -109,14 +109,14 @@ User match/create by email, username (case insensitive)
 
 ### Main features.
 
-* FEATURE: Optional organizations display name setting (display_name property added)
+* (Gw|Web) FEATURE: Optional. organizations display name setting (display_name property added)
 
-* FIX: Web server / Gateway Api. Requests compression support restored. Prevents sending static files uncompressed
+* (Gw) FIX: Requests compression support restored. Prevents sending static files uncompressed
 
-* FIX: Jobs list limit (paginator). Hide jobs elements from the UI. Memory leaks and browser freeze
+* (Web) FIX: Jobs list limit (paginator). Hide jobs elements from the UI. Memory leaks and browser freeze
 
-* FIX: Check jobs ownership and interactions, using users email and id
+* (Web) FIX: Check jobs ownership and interactions, using users email and id
 
-* HOTFIX: Searchbox fixes, Workflows and Groups now can be searched.
+* (Web) HOTFIX: Searchbox fixes, Workflows and Groups now can be searched.
 
-* HOTFIX: Workflow current, last and first job determined correctly
+* (Web) HOTFIX: Workflow current, last and first job determined correctly
