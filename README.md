@@ -92,3 +92,31 @@ User match/create by email, username (case insensitive)
 | PUT | /workflows/:workflow/job/:job/cancel | Cancel workflow job execution |
   
 -----
+
+## May 12, 2021
+
+### components versiones
+
+* supervisor. 2.4.0   
+
+* web. 2.4.1
+
+* gateway. 1.4.1
+
+* auth. 0.0.1     
+
+* sync. 0.0.3      
+
+### Main features.
+
+* FEATURE: Optional organizations display name setting (display_name property added)
+
+* FIX: Web server / Gateway Api. Requests compression support restored. Prevents sending static files uncompressed
+
+* FIX: Jobs list limit (paginator). Hide jobs elements from the UI. Memory leaks and browser freeze
+
+* FIX: Check jobs ownership and interactions, using users email and id
+
+* HOTFIX: Searchbox fixes, Workflows and Groups now can be searched.
+
+* HOTFIX: Workflow current, last and first job determined correctly
