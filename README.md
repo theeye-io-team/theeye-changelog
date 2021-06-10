@@ -48,9 +48,6 @@ User match/create by email, username (case insensitive)
 * Can customize login form inputs placeholders 
 
 
------
-
-
 #### cross env (saas, on-premises)
 
 * Cloud Domain Enterprise login (Azure AD integration)
@@ -97,7 +94,7 @@ User match/create by email, username (case insensitive)
 
 ### components versiones
 
-* supervisor. 2.4.0   
+* supervisor. 2.4.1   
 
 * web. 2.4.1
 
@@ -120,3 +117,33 @@ User match/create by email, username (case insensitive)
 * (Web) HOTFIX: Searchbox fixes, Workflows and Groups now can be searched.
 
 * (Web) HOTFIX: Workflow current, last and first job determined correctly
+
+* (supervisor) Task & Workflows ACL controller (#154)
+
+* (supervisor) organization display name
+
+-----
+
+## Jun 10, 2021
+
+### components versiones
+
+* supervisor. 2.4.2
+
+* web. 2.4.2
+
+* gateway. 1.4.2
+
+* auth. 0.0.1     
+
+* sync. 0.0.3      
+
+### Main features.
+
+* (supervisor) re-enable job.lifecycle (user can cancel) (#155). users with limited access can cancel jobs again
+
+* (supervisor) HOTFIX: workflow path rename.
+
+* (web) build version and scripts (#236)
+
+* (gateway) Enterprise Auth. verify username & email (#75)
