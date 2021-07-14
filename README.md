@@ -148,3 +148,81 @@ User match/create by email, username (case insensitive)
 * (web) build version and scripts (#236)
 
 * (gateway) Enterprise Auth. verify username & email (#75)
+
+-----
+
+## Jul 13, 2021
+
+### components versiones
+
+* supervisor. 2.5.1-1-gc505924
+
+* web. 2.5.0-2-g9331f371
+
+* gateway. 1.5.0
+
+* auth. 0.0.1     
+
+* sync. 0.0.3      
+
+### Main features.
+
+
+#### Supervisor API
+
+
+* Workflow user inputs (#152)
+
+  > Users assignee and observers can be controled.   
+
+  > Added security.    
+
+  > The approvers in approval tasks has new variants.   
+
+  > Workflows dynamic settings can now be forbidden.   
+
+* change exceded jobs clean order - create then clean (#161)
+
+* Task/Workflow can be cancellable (#164)
+
+* add limit/removal jobs exec policy by task/workflow (#168)
+
+
+#### Gateway API
+
+* Escape regexp case insensitive in all db query (#76)
+
+* Encrypted configs (#77)
+
+* lower case email on user invitation (#79)
+
+* create AD/LDAP users with default/domain group. (#80)
+
+* A lot of fixes with users, members, authorization and authentication of users (#76 #79 #81)
+
+
+#### Web UI
+
+* Build webserver support for on premise installations (#237)
+
+* remove customer from request payload and url (#231)
+
+>    remove customer from request payload and url. no longer needed
+
+>    searchbox fix: not found new created task
+
+>    rename property (acl_dynamic => empty_viewers)
+
+>    fix grecaptcha verification
+
+>    added participants information to jobs
+
+>    assigned_user default value
+
+* named integration tokens (#234)
+
+* workflow table view fix (#238)
+
+* client socket connection improved (#244)
+
+* dynamic settings security improved (#247)
