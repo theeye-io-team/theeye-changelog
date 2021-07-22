@@ -226,3 +226,54 @@ User match/create by email, username (case insensitive)
 * client socket connection improved (#244)
 
 * dynamic settings security improved (#247)
+
+-----
+
+## Jul 22, 2021
+
+### components versiones
+
+* supervisor. 2.6.0
+
+* web. 2.6.0-1-ga00c881e
+
+* gateway. 1.5.0
+
+* auth. 0.0.1     
+
+* sync. 0.0.3      
+
+### Main features.
+
+#### Supervisor
+
+* Evaluate arguments as mime text/plain (#170)
+
+* Fix dynamic settings verification (#172)
+
+* Add control to non-cancellable jobs (#171)
+
+
+#### Web UI
+
+* Workflow jobs are (#261)
+
+* Task arguments improved to work with optionals (#258)
+
+  Text arguments type added.
+
+* Scripts Linked models. Fix verification order (#263)
+
+* Argument type options/remote options admit multiples selections (#252)
+
+* Member page search input (#262)
+
+* Ask confirmation to modify scripts attached to multiple models (#253)
+
+* Ordered monitor check interval list (#259)
+
+* Verify my-pending tasks (#241)
+
+* Jobs control. can be canceled. (#249)
+
+* Combo arguments admit 0 as input value (#251)
