@@ -256,7 +256,6 @@ User match/create by email, username (case insensitive)
 
 #### Web UI
 
-* Workflow jobs are (#261)
 
 * Task arguments improved to work with optionals (#258)
 
