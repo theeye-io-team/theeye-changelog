@@ -233,9 +233,9 @@ User match/create by email, username (case insensitive)
 
 ### components versiones
 
-* supervisor. 2.6.0
+* supervisor. 2.6.0   
 
-* web. 2.6.0-1-ga00c881e
+* web. 2.6.0
 
 * gateway. 1.5.0
 
@@ -276,3 +276,44 @@ User match/create by email, username (case insensitive)
 * Jobs control. can be canceled. (#249)
 
 * Combo arguments admit 0 as input value (#251)
+
+
+
+-----
+
+
+## Aug 2, 2021
+
+### components versiones
+
+* supervisor. 2.6.1    
+
+* web. 2.6.1   
+
+* gateway. 1.5.0
+
+* auth. 0.0.1     
+
+* sync. 0.0.3      
+
+### Main features.
+
+#### Supervisor
+
+Admin users can cancel jobs again (#173)
+
+Fix for dynamic settings validation.
+
+
+#### Web UI
+
+Text argument does not stringify by default
+
+Legacy is the default argument type behavior
+
+in-progress job also optionals enabled. (#268)
+
+Admin users is able to cancel jobs (again) (#265)
+
+Restore workflow jobs fetch on-loading
+
