@@ -155,9 +155,9 @@ User match/create by email, username (case insensitive)
 
 ### components versiones
 
-* supervisor. 2.5.1-1-gc505924
+* supervisor. 2.5.2
 
-* web. 2.5.0-2-g9331f371
+* web. 2.5.1
 
 * gateway. 1.5.0
 
