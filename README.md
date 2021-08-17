@@ -284,6 +284,7 @@ User match/create by email, username (case insensitive)
 
 ## Aug 2, 2021
 
+
 ### components versiones
 
 * supervisor. 2.6.1    
@@ -296,7 +297,10 @@ User match/create by email, username (case insensitive)
 
 * sync. 0.0.3      
 
+
+
 ### Main features.
+
 
 #### Supervisor
 
@@ -317,3 +321,92 @@ Admin users is able to cancel jobs (again) (#265)
 
 Restore workflow jobs fetch on-loading
 
+
+-----
+
+
+## Aug 2, 2021
+
+
+### components versiones
+
+* supervisor. 2.7.2    
+
+* web. 2.7.2   
+
+* gateway. 1.5.0
+
+* auth. 0.0.1     
+
+* sync. 0.0.3      
+
+
+
+### Main features.
+
+
+#### Supervisor
+
+(tag: 2.7.2) Fix jobs query. add more info. UI need improves
+
+Remove jobs filteringg (#181)
+
+(origin/reschedule-fix) validate payload (#180)
+
+(tag: 2.7.1)
+
+add more data to response (#179)
+
+missing validation (#178)
+
+(tag: 2.7.0)
+
+restart schedule using new next run (#177)
+
+running jobs counter api (#176)
+
+Scheduler pause (#175)
+
+
+#### Web UI
+
+(tag: 2.7.2) capture close button (#290)
+
+2.7.1 Release Fixes. Jobs fetch and onHold checks
+
+Jobs fetch fixes (#289)
+
+Optional arguments types validation (#286)
+
+"Unknown" notifications for schedules fixed (#281)
+
+Emprolijar isPendingCheck y arreglar el chequeo de pending jobs (#270)
+
+(tag: 2.7.1)
+
+resync and repopulate improves (#284)
+
+fetch jobs on check pending (#283)
+
+webhook refactoring (#282)
+
+use collection to count. reduce jobs payload. (#280)
+
+(tag: 2.7.0)
+
+file page (#272)
+
+add more control to jobs operations counter (#276)
+
+boton para cambiar el assignee de una job pending (#269)
+
+Filter members in orgation menu (#267)
+
+Tying current running jobs to the API (#255)
+
+Implemented functional buttons (#254)
+
+Scheduler pause button (#256)
+
+
+-----
