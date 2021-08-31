@@ -59,20 +59,20 @@
 #### Supervisor Api
 
 
-SECFIX - [fad908f] dynamic settings control fix (#169)
+* SECFIX - [fad908f] dynamic settings control fix (#169)
 
 
-FEATURE/BUGFIX - [bd09617] Task job assignee (#185)
+* FEATURE/BUGFIX - [bd09617] Task job assignee (#185)
 
 Launch tasks using assignee.
 Extend members translation.
 Unify workflows and tasks checks.
 
 
-FEATURE - [a1575d1] add scheduler additional parameters (#183)
+* FEATURE - [a1575d1] add scheduler additional parameters (#183)
 
 
-BUGFIX - [d90e8e6] user is not preset. should not fail (#182)
+* BUGFIX - [d90e8e6] user is not preset. should not fail (#182)
 
 trigger onhold was not working.
 
@@ -80,12 +80,12 @@ trigger onhold was not working.
 
 #### Gateway Api
 
-MAINTENANCE - [0a5d508] remove popup component custom event (#83)
+* MAINTENANCE - [0a5d508] remove popup component custom event (#83)
 
 this event is no longer emitted. was removed
 
 
-FEATURE - [01648be] Swagger (#82)
+* FEATURE - [01648be] Swagger (#82)
 
 this is in progress. structure was added.
 
@@ -95,7 +95,7 @@ Listening on /api/docs
 
 #### Web UI
 
-FEATURE/BUGFIX - [73be66e2] merge cron features (#277)
+* FEATURE/BUGFIX - [73be66e2] merge cron features (#277)
 
 The scheduler was improved.
 Human format was removed.
@@ -103,17 +103,17 @@ Added cron with example and Timezone auto-discover.
 UI Improved.
 
 
-FEATURE/BUGFIX - [eafe00c4] move code. improve verification. add isassignee (#298)
+* FEATURE/BUGFIX - [eafe00c4] move code. improve verification. add isassignee (#298)
 
 Show Popup is now tied to the job-completed event.
 The custom pop-event was removed.
 
 
-FEATURE - [f7868ae5] Download button component (#295)
+* FEATURE - [f7868ae5] Download button component (#295)
 
 A download button component was added in table view.
 
-FEATURE - [abeaf926] Import arguments from a task json backup (#273)
+* FEATURE - [abeaf926] Import arguments from a task json backup (#273)
 
 New buttons added to work with task arguments:
 
@@ -122,24 +122,24 @@ Import from File (From task recipe supported)
 Copy (from existent tasks)
 
 
-BUGFIX - [6b31457d] mixed value detected (#294)
+* BUGFIX - [6b31457d] mixed value detected (#294)
 
-FEATURE - [0905ee28] Environment variables GUI (#266)
+* FEATURE - [0905ee28] Environment variables GUI (#266)
 
-BUGFIX - [aa6320f7] scheduler-permissions (#288)
+* BUGFIX - [aa6320f7] scheduler-permissions (#288)
 
-FEATURE/BUGIX - [273accbb] Opcionales text (#271)
+* FEATURE/BUGIX - [273accbb] Opcionales text (#271)
 
 Improve optional arguments parsing.
 Keep legacy behoviour.
 
 
-BUGIFX - [3817a9ef] Fixed scheduler button showing up for users (#291)
+* BUGIFX - [3817a9ef] Fixed scheduler button showing up for users (#291)
 
 Acls added to buttons. Hide buttons to non-admin users.
 
 
-FEATURE - [0bf1a96a] Render on click collapse (#292)
+* FEATURE - [0bf1a96a] Render on click collapse (#292)
 
 Job rows are no longer rendered onload.
 
