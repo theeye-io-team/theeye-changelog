@@ -62,7 +62,7 @@
 * SECFIX - [fad908f](https://github.com/theeye-io/supervisor/commit/fad908f) dynamic settings control fix [(#169)](https://github.com/theeye-io/supervisor/pull/169)
 
 
-*FEATURE/BUGFIX - [bd09617](https://github.com/theeye-io/supervisor/commit/bd09617) Task job assignee [(#185)](https://github.com/theeye-io/supervisor/pull/185)
+* FEATURE/BUGFIX - [bd09617](https://github.com/theeye-io/supervisor/commit/bd09617) Task job assignee [(#185)](https://github.com/theeye-io/supervisor/pull/185)
 
 Launch tasks using assignee.
 Extend members translation.
