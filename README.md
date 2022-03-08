@@ -20,7 +20,7 @@
 # RELEASES
 
 
-* [Mar 07, 2021](#sep-07-2021)
+* [Mar 07, 2021](#mar-07-2021)
 
 * [Jan 05, 2021](#jan-07-2021)
 
@@ -43,7 +43,7 @@
 
 -----
 
-## March 07, 2022
+## Mar 07, 2022
 
 ### components versions
 
@@ -80,7 +80,7 @@
 
 -----
 
-## January 05, 2022
+## Jan 05, 2022
 
 ### components versions
 
