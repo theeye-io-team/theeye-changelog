@@ -20,11 +20,15 @@
 # RELEASES
 
 
-* [Sep 1, 2021](#sep-1-2021)
+* [Mar 07, 2021](#sep-07-2021)
+
+* [Jan 05, 2021](#jan-07-2021)
+
+* [Sep 01, 2021](#sep-01-2021)
 
 * [Aug 13, 2021](#aug-13-2021)
 
-* [Aug 2, 2021](#aug-2-2021)
+* [Aug 02, 2021](#aug-02-2021)
 
 * [Jul 22, 2021](#jul-22-2021)
 
@@ -39,7 +43,64 @@
 
 -----
 
-## Sep 1, 2021
+## March 07, 2022
+
+### components versions
+
+* supervisor. 3.0.2     
+
+* web. 2.10.0     
+
+* gateway. 1.7.2     
+
+* auth. 0.0.1     
+
+* sync. 0.0.3      
+
+
+### Main features.
+
+#### Supervisor Api
+
+* BUGFIX - Templates functionality was restored and improved.
+
+
+#### Web UI
+
+
+* BUGFIX - Templates page improved.
+
+* FEATURE - Added an Enteprise Login integration.
+
+
+#### Gateway Api
+
+
+* FEATURE - Improve installation instructions format.
+
+-----
+
+## January 05, 2022
+
+### components versions
+
+* supervisor. 3.0.0-2-g083170f    
+
+* web. 2.9.1-4-g52d368f6      
+
+* gateway. 1.7.1-1-g8325587      
+
+* auth. 0.0.1     
+
+* sync. 0.0.3      
+
+
+### Main features.
+
+
+-----
+
+## Sep 01, 2021
 
 ### Components Versiones
 
@@ -231,7 +292,7 @@ Scheduler pause button (#256)
 -----
 
 
-## Aug 2, 2021
+## Aug 02, 2021
 
 
 ### components versiones
