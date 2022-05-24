@@ -64,7 +64,7 @@
 
 ### Web UI
 
-This release included a los Features and Fixes. We will enumerate only the main changes.
+This release included a lot of features and fixes. We will enumerate only the main changes.
 
 #### GENERAL FEATURES
 
