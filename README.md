@@ -6,18 +6,32 @@
 
 ## Components
 
-| Name | Description |
-|-----|-----|
-| supervisor | Core API |
-| web | SPA UI |
-| gateway | Micro Services API |
-| auth | Authentication Micro Service (saas) |
-| sync | Core Task execution sync response |
-| docs | Online documentation |
+ | Name       | Description                         | Repo |
+ | -----      | -----                               | ----- |
+ | supervisor | Core API                            | [](https://github.com/theeye-io-team/theeye-supervisor) |
+ | web        | SPA UI                              | [](https://github.com/theeye-io-team/theeye-web) |
+ | gateway    | Micro Services API                  | [](https://github.com/theeye-io-team/theeye-gateway) |
+ | docs       | Online documentation                | [](https://github.com/theeye-io-team/theeye-docs)|
+ | auth       | Authentication Micro Service (saas) | |
+ | sync       | Core Task execution sync response   | |
 
 -----
 
 # RELEASES
+
+* [Aug 24, 2022](#aug-24-2022)
+
+* [Jul 29, 2022](#jul-29-2022)
+
+* [Jul 12, 2022](#jul-12-2022)
+
+* [Jul 8, 2022](#jul-8-2022)
+
+* [Jul 6, 2022](#jul-6-2022)
+
+* [Jul 4, 2022](#jul-4-2022)
+
+* [Jun 6, 2022](#jun-6-2022)
 
 * [May 16, 2022](#may-16-2022)
 
@@ -47,6 +61,89 @@
 
 -----
 
+## Aug 24, 2022
+
+### components versions
+
+* supervisor. 4.2.2     
+
+* web. 3.5.0     
+
+* gateway. 1.12.1
+
+-----
+
+## Juli 29, 2022
+
+### components versions
+
+* supervisor. 4.2.2     
+
+* web. 3.5.0     
+
+* gateway. 1.11.0
+
+-----
+
+## Jul 12, 2022
+
+### components versions
+
+* supervisor. 4.2.1     
+
+* web. 3.4.1     
+
+* gateway. 1.11.0
+
+-----
+
+## Jul 8, 2022
+
+### components versions
+
+* supervisor. 4.2.1     
+
+* web. 3.4.0     
+
+* gateway. 1.11.0
+
+-----
+
+## Jul 6, 2022
+
+### components versions
+
+* supervisor. 4.2.1     
+
+* web. 3.3.0     
+
+* gateway. 1.11.0
+
+-----
+
+## Jul 4, 2022
+
+### components versions
+
+* supervisor. 4.2.0     
+
+* web. 3.2.0     
+
+* gateway. 1.10.0
+
+-----
+
+## Jun 6, 2022
+
+### components versions
+
+* supervisor. 4.1.0     
+
+* web. 3.1.0     
+
+* gateway. 1.10.0
+
+-----
 
 ## May 16, 2022
 
